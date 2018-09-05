@@ -1,6 +1,6 @@
-var cfnTags = require('..');
+const cfnTags = require('..');
 
-cfnTags(function(err, cfndata) {
+cfnTags((err, cfndata) => {
   if (err) {
     throw err;
   }
